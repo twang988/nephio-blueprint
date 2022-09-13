@@ -1,8 +1,0 @@
-apiVersion: kpt.dev/v1
-kind: Kptfile
-metadata:
-  name: firewall-host-netdevice-sink
-info:
-  site: https://nephio.org
-  description: Package for firewall-host-netdevice
-
