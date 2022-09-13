@@ -8,9 +8,16 @@ upstream:
   type: git
   git:
     repo: https://github.com/twang988/nephio-blueprint.git
-    directory: /nephio-firewall-host-netdevice
-    ref: nephio-firewall-host-netdevice/v1
+    directory: /firewall-host-netdevice
+    ref: firewall-host-netdevice/v1
   updateStrategy: resource-merge
+upstreamLock:
+  type: git
+  git:
+    repo: https://github.com/twang988/nephio-blueprint.git
+    directory: /firewall-host-netdevice
+    ref: firewall-host-netdevice/v1
+    commit: 8e5900fe3e6e69516c5207977e5c836884cb9cf4
 info:
   site: https://nephio.org
   description: Package for firewall-host-netdevice
