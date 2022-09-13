@@ -1,7 +1,7 @@
 apiVersion: kpt.dev/v1
 kind: Kptfile
 metadata:
-  name: aaa
+  name: wordpress3
 info:
   emails:
     - kpt-team@google.com
