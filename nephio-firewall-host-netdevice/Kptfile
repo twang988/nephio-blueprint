@@ -4,6 +4,13 @@ metadata:
   name: firewall-host-netdevice
   annotations:
     config.kubernetes.io/local-config: "true"
+upstream:
+  type: git
+  git:
+    repo: https://github.com/twang988/nephio-blueprint.git
+    directory: /nephio-firewall-host-netdevice
+    ref: nephio-firewall-host-netdevice/main
+  updateStrategy: resource-merge
 info:
   site: https://nephio.org
   description: Package for firewall-host-netdevice
