@@ -4,7 +4,4 @@ metadata:
   name: firewall-host-netdevice-sink
 info:
   description: firewall-host-netdevice-sink
-pipeline:
-  mutators:
-  - image: gcr.io/kpt-fn/set-namespace:v0.4.1
-    configPath: package-context-sink.yaml
+

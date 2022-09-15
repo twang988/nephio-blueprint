@@ -1,7 +1,7 @@
 apiVersion: kpt.dev/v1
 kind: Kptfile
 metadata:
-  name: firewall-host-netdevice-sink
+  name: firewall-host-netdevice-pktgen
 info:
-  description: firewall-host-netdevice-sink
+  description: firewall-host-netdevice-pktgen
 
