@@ -7,4 +7,4 @@ info:
 pipeline:
   mutators:
   - image: gcr.io/kpt-fn/set-namespace:v0.4.1
-    configPath: package-context.yaml
+    configPath: ns.yaml
