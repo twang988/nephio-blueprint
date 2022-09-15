@@ -4,4 +4,7 @@ metadata:
   name: firewall-host-netdevice
 info:
   description: firewall-host-netdevice
-
+pipeline:
+  mutators:
+  - image: gcr.io/kpt-fn/set-namespace:v0.4.1
+    configPath: ns.yaml
