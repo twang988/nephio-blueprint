@@ -1,7 +1,7 @@
 apiVersion: kpt.dev/v1
 kind: Kptfile
 metadata:
-  name: cfw-func-pkg
+  name: firewall-host-netdevice
 info:
   description: firewall-host-netdevice
 pipeline:
